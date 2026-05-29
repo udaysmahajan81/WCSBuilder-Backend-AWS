@@ -1,0 +1,31 @@
+[
+  {
+    "FeatureName": "Conveyor",
+    "FeatureType": "Component",
+    "DisplayName": "Conveyor"
+  },
+
+  {
+    "FeatureName": "Panel",
+    "FeatureType": "Component",
+    "DisplayName": "Panel"
+  },
+
+  {
+    "FeatureName": "Configuration",
+    "FeatureType": "Module",
+    "DisplayName": "Configuration"
+  },
+
+  {
+    "FeatureName": "Analytics",
+    "FeatureType": "Module",
+    "DisplayName": "Analytics"
+  },
+
+  {
+    "FeatureName": "Toolbox",
+    "FeatureType": "Module",
+    "DisplayName": "Toolbox"
+  }
+]

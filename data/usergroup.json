@@ -1,0 +1,26 @@
+[
+  {
+    "UserGroupID": 1,
+    "GroupName": "Admin",
+    "Description": "Full system access",
+    "CreatedOn": "2026-02-18T17:23:41+05:30"
+  },
+  {
+    "UserGroupID": 2,
+    "GroupName": "Engineer",
+    "Description": "Engineering level access",
+    "CreatedOn": "2026-02-18T17:23:41+05:30"
+  },
+  {
+    "UserGroupID": 3,
+    "GroupName": "Supervisor",
+    "Description": "Operational level access",
+    "CreatedOn": "2026-02-18T17:23:41+05:30"
+  },
+  {
+    "UserGroupID": 4,
+    "GroupName": "Client",
+    "Description": "Read-only access",
+    "CreatedOn": "2026-02-18T17:23:41+05:30"
+  }
+]

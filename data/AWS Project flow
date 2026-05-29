@@ -1,0 +1,20 @@
+		AWS
+		|
+WCS Builder (AWS) - AWS Cloud (Output Send by E Mail to my mail address)
+	import floor plan
+	drag drop equipments
+	select control configuration for each component
+	select appropriate software process library
+	On completion of the layout, send the project file to my email ID.
+		|
+		|
+		|
+WCS Builder (Processing)
+	Monitor Email receive from Specific AWS email ID
+	Download all the project files
+	Develop algorithm logic and flow to convert these project files into engineering (Application AE /ME/CE/SE Output document)
+		|
+		|
+		|
+		|
+Client ---- Send to customer

@@ -1,0 +1,122 @@
+{
+  "Conveyor": {
+
+    "Automation": {
+      "Engineer": {
+        "CanView": true,
+        "CanAdd": true,
+        "CanEdit": true,
+        "CanDelete": true,
+        "CanExecute": true
+      }
+    },
+
+    "Mechanical": {
+      "Engineer": {
+        "CanView": true,
+        "CanAdd": true,
+        "CanEdit": true,
+        "CanDelete": false,
+        "CanExecute": false
+      }
+    },
+
+    "Software": {
+      "Engineer": {
+        "CanView": true,
+        "CanAdd": false,
+        "CanEdit": false,
+        "CanDelete": false,
+        "CanExecute": true
+      }
+    },
+
+    "Application": {
+      "Engineer": {
+        "CanView": true,
+        "CanAdd": true,
+        "CanEdit": true,
+        "CanDelete": true,
+        "CanExecute": true
+      }
+    },
+
+    "Admin": {
+      "Engineer": {
+        "CanView": true,
+        "CanAdd": true,
+        "CanEdit": true,
+        "CanDelete": true,
+        "CanExecute": true
+      }
+    }
+  },
+
+  "SRM": {
+
+    "Application": {
+      "Engineer": {
+        "CanView": true,
+        "CanAdd": true,
+        "CanEdit": true,
+        "CanDelete": true,
+        "CanExecute": true
+      }
+    },
+
+    "Admin": {
+      "Engineer": {
+        "CanView": true,
+        "CanAdd": true,
+        "CanEdit": true,
+        "CanDelete": true,
+        "CanExecute": true
+      }
+    }
+  },
+
+  "Configuration": {
+
+    "Application": {
+      "Engineer": {
+        "CanView": true
+      }
+    },
+
+    "Admin": {
+      "Engineer": {
+        "CanView": true
+      }
+    }
+  },
+
+  "Analytics": {
+
+    "Application": {
+      "Engineer": {
+        "CanView": true
+      }
+    },
+
+    "Admin": {
+      "Engineer": {
+        "CanView": true
+      }
+    }
+  },
+
+  "Toolbox": {
+
+    "Application": {
+      "Engineer": {
+        "CanView": true
+      }
+    },
+
+    "Admin": {
+      "Engineer": {
+        "CanView": true
+      }
+    }
+  }
+}

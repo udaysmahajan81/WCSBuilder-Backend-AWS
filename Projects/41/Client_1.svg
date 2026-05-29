@@ -1,0 +1,77 @@
+<svg width="1200" height="700" viewBox="0 0 1200 700"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <!-- Background -->
+  <rect width="1200" height="700" fill="#0b0b0b"/>
+
+  <!-- Boundary -->
+  <rect x="20" y="20" width="1160" height="660"
+        fill="none" stroke="#00ff99" stroke-width="2"/>
+
+  <!-- ================= LEFT SIDE ZONES ================= -->
+
+  <!-- INBOUND -->
+  <rect x="30" y="30" width="250" height="200"
+        fill="none" stroke="#00ffff" stroke-width="2"/>
+  <text x="60" y="70" fill="#00ffff" font-size="16">
+    INBOUND
+  </text>
+
+  <!-- OUTBOUND -->
+  <rect x="30" y="250" width="250" height="200"
+        fill="none" stroke="#ffaa00" stroke-width="2"/>
+  <text x="60" y="290" fill="#ffaa00" font-size="16">
+    OUTBOUND
+  </text>
+
+  <!-- SERVER ROOM (small corner) -->
+  <rect x="30" y="480" width="180" height="150"
+        fill="none" stroke="#ff00ff" stroke-width="2"/>
+  <text x="50" y="520" fill="#ff00ff" font-size="12">
+    SERVER ROOM
+  </text>
+
+  <!-- ================= STORAGE AREA ================= -->
+  <rect x="300" y="30" width="860" height="600"
+        fill="none" stroke="#00ff00" stroke-width="2"/>
+  <text x="650" y="50" fill="#00ff00" font-size="16">
+    STORAGE (SRM ZONE)
+  </text>
+
+  <!-- ================= PILLARS ================= -->
+  <g fill="#888">
+    <!-- Row 1 -->
+    <circle cx="450" cy="150" r="10"/>
+    <circle cx="650" cy="150" r="10"/>
+    <circle cx="850" cy="150" r="10"/>
+    <circle cx="1050" cy="150" r="10"/>
+
+    <!-- Row 2 -->
+    <circle cx="450" cy="300" r="10"/>
+    <circle cx="650" cy="300" r="10"/>
+    <circle cx="850" cy="300" r="10"/>
+    <circle cx="1050" cy="300" r="10"/>
+
+    <!-- Row 3 -->
+    <circle cx="450" cy="450" r="10"/>
+    <circle cx="650" cy="450" r="10"/>
+    <circle cx="850" cy="450" r="10"/>
+    <circle cx="1050" cy="450" r="10"/>
+  </g>
+
+  <!-- ================= GRID ================= -->
+  <g stroke="#1f1f1f" stroke-width="1">
+    <!-- vertical -->
+    <line x1="200" y1="20" x2="200" y2="680"/>
+    <line x1="400" y1="20" x2="400" y2="680"/>
+    <line x1="600" y1="20" x2="600" y2="680"/>
+    <line x1="800" y1="20" x2="800" y2="680"/>
+    <line x1="1000" y1="20" x2="1000" y2="680"/>
+
+    <!-- horizontal -->
+    <line x1="20" y1="200" x2="1180" y2="200"/>
+    <line x1="20" y1="400" x2="1180" y2="400"/>
+    <line x1="20" y1="600" x2="1180" y2="600"/>
+  </g>
+
+</svg>

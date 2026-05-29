@@ -1,0 +1,67 @@
+<svg 
+  width="100%" 
+  height="100%" 
+  viewBox="0 0 10000 8000"
+  preserveAspectRatio="xMinYMin meet"
+  xmlns="http://www.w3.org/2000/svg"
+>
+
+  <!-- SHIFT TO TRUE ORIGIN -->
+  <g transform="translate(1,1)">
+
+    <!-- MAIN BOUNDARY -->
+    <rect id="plant_boundary"
+          x="100" y="400"
+          width="12000" height="6000"
+          fill="none"
+          stroke="lawngreen"
+          stroke-width="40"/>
+
+    <!-- INBOUND (LEFT SIDE FULL HEIGHT) -->
+    <rect id="inbound_zone"
+          data-type="inbound"
+          x="200" y="450"
+          width="1600" height="3000"
+          fill="none"
+          stroke="blue"
+          stroke-width="60"/>
+ <text x="250" y="700" fill="#00ffff" font-size="240">
+    INBOUND
+  </text>
+
+    <!-- OUTBOUND (RIGHT SIDE FULL HEIGHT) -->
+    <rect id="outbound_zone"
+          data-type="outbound"
+          x="200" y="3500"
+          width="1600" height="2800"
+          fill="none"
+          stroke="red"
+          stroke-width="60"/>
+ <text x="250" y="3700" fill="#00ffff" font-size="240">
+    OUTBOUND
+  </text>		  
+
+		   <!-- OUTBOUND (RIGHT SIDE FULL HEIGHT) -->
+    <rect id="Control_Room"
+          data-type="Control_Room"
+          x="10000" y="3450"
+          width="2000" height="2900"
+          fill="none"
+          stroke="cyan"
+          stroke-width="60"/>
+		  
+
+    <!-- PILLARS (Adjusted proportionally) -->
+      <rect id="pillar_1" x="3000" y="3000" width="400" height="400"
+          fill="black" stroke="yellow" stroke-width="20"/>
+
+    <rect id="pillar_2" x="6000" y="3000" width="400" height="400"
+          fill="black" stroke="yellow" stroke-width="20"/>
+
+    <rect id="pillar_3" x="9000" y="3000" width="400" height="400"
+          fill="black" stroke="yellow" stroke-width="20"/>
+
+
+  </g>
+
+</svg>

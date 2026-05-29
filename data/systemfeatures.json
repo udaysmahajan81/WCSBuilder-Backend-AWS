@@ -1,0 +1,52 @@
+{
+  "Menu": [
+
+    {
+      "Name": "Configuration",
+      "Type": "Module",
+      "DisplayName": "Configuration",
+      "Icon": "settings",
+      "Children": []
+    },
+
+    {
+      "Name": "Analytics",
+      "Type": "Module",
+      "DisplayName": "Analytics",
+      "Icon": "analytics",
+      "Children": []
+    },
+
+    {
+      "Name": "Components",
+      "Type": "Module",
+      "DisplayName": "Components",
+      "Icon": "widgets",
+
+      "Children": [
+
+        {
+          "Name": "Conveyor",
+          "Type": "Component",
+          "DisplayName": "Conveyor",
+          "SvgPath": "/images/ChainConveyor.svg"
+        },
+
+        {
+          "Name": "SRM",
+          "Type": "Component",
+          "DisplayName": "SRM",
+          "SvgPath": "/images/SRM.svg"
+        }
+      ]
+    },
+
+    {
+      "Name": "Toolbox",
+      "Type": "Module",
+      "DisplayName": "Toolbox",
+      "Icon": "build",
+      "Children": []
+    }
+  ]
+}

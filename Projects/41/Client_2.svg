@@ -1,0 +1,27 @@
+<svg 
+  width="100%" 
+  height="100%" 
+  viewBox="0 0 4000 8000" 
+  xmlns="http://www.w3.org/2000/svg"
+>
+
+  <!-- Boundary -->
+  <rect id="plant_boundary" x="10" y="10" width="5000" height="5000"
+        fill="none" stroke="green" stroke-width="40"/>
+
+  <!-- Inbound (LEFT) -->
+  <rect id="inbound_zone" data-type="inbound"
+        x="200" y="200" width="6000" height="300"
+        fill="none" stroke="blue" stroke-width="30"/>
+
+  <!-- Outbound (RIGHT) -->
+  <rect id="outbound_zone" data-type="outbound"
+        x="3200" y="3300" width="600" height="300"
+        fill="none" stroke="red" stroke-width="30"/>
+
+  <!-- Pillars -->
+  <rect id="pillar_1" data-type="pillar" x="1500" y="2500" width="200" height="200" fill="black"/>
+  <rect id="pillar_2" data-type="pillar" x="2000" y="3500" width="200" height="200" fill="black"/>
+  <rect id="pillar_3" data-type="pillar" x="2500" y="1500" width="200" height="200" fill="black"/>
+
+</svg>
