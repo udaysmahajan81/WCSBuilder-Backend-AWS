@@ -36,21 +36,24 @@ function sanitizeJson(obj) {
 }
 
 export async function readJson(file, defaultValue = null) {
-
   try {
-
     const filePath = path.join(DATA_DIR, file);
+
+    console.log("READING FILE:", filePath);
 
     const data = await fs.readFile(filePath, "utf8");
 
+    console.log("FILE FOUND");
+
     return JSON.parse(data);
 
-  } catch {
+  } catch (err) {
+
+    console.log("READ ERROR:", err.message);
 
     return defaultValue;
   }
 }
-
 export async function writeJson(file, data) {
 
   const filePath = path.join(DATA_DIR, file);

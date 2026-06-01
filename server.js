@@ -23,7 +23,7 @@ import nodes7 from "nodes7";
 
 /* ===================== ROUTES ===================== */
 
-//import authRoutes from "./routes/auth.routes.js";
+import authRoutes from "./routes/auth.routes.js";
 
 import scadaRoutes from "./routes/scadaimport.routes.js";
 
@@ -57,7 +57,10 @@ const app = express();
 
 app.use(
   cors({
-    origin: "http://localhost:5173",
+    origin: [
+      "http://localhost:5173",
+      "http://wcsbuilder-ui-aws.s3-website.ap-south-1.amazonaws.com"
+    ],
     credentials: true,
     methods: [
       "GET",
@@ -102,7 +105,7 @@ const PLC_INI_PATH = "./config/plc.ini";
 
 //app.use("/api/mech", exportBOM);
 
-//app.use("/api/auth", authRoutes);
+app.use("/api/auth", authRoutes);
 
 app.use("/api/projects", projectRoutes);
 

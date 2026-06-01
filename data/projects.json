@@ -1,0 +1,92 @@
+[
+  {
+    "ProjectID": 13,
+    "ProjectNumber": "Proj-001",
+    "ProjectName": "WCSBuilder01",
+    "CreatedBy": null,
+    "CreatedDate": "2026-03-02 14:57:33",
+    "Status": "Active",
+    "floorplan": null
+  },
+  {
+    "ProjectID": 14,
+    "ProjectNumber": "Proj-002",
+    "ProjectName": "WCSBuilder001",
+    "CreatedBy": null,
+    "CreatedDate": "2026-03-03 10:38:13",
+    "Status": "Active",
+    "floorplan": null
+  },
+  {
+    "ProjectID": 17,
+    "ProjectNumber": "Proj-003",
+    "ProjectName": "BOM01",
+    "CreatedBy": null,
+    "CreatedDate": "2026-03-06 16:40:50",
+    "Status": "Active",
+    "floorplan": null
+  },
+  {
+    "ProjectID": 19,
+    "ProjectNumber": "Proj-004",
+    "ProjectName": "12345",
+    "CreatedBy": null,
+    "CreatedDate": "2026-03-06 17:06:01",
+    "Status": "Active",
+    "floorplan": null
+  },
+  {
+    "ProjectID": 32,
+    "ProjectNumber": "Proj-005",
+    "ProjectName": "ProjectwithFloorplan",
+    "CreatedBy": null,
+    "CreatedDate": "2026-04-02 15:10:00",
+    "Status": "Active",
+    "floorplan": "projects/41/floorplan.svg"
+	},
+  {
+    "ProjectID": 33,
+    "ProjectNumber": "Proj-006",
+    "ProjectName": "Demo",
+    "CreatedBy": null,
+    "CreatedDate": "2026-04-03 14:46:07",
+    "Status": "Active",
+    "floorplan": "projects/41/floorplan.svg"
+ },
+  {
+    "ProjectID": 34,
+    "ProjectNumber": "Proj-007",
+    "ProjectName": "Proj-007",
+    "CreatedBy": null,
+    "CreatedDate": "2026-04-03 17:10:17",
+    "Status": "Active",
+   "floorplan": "projects/41/floorplan.svg"
+  },
+  {
+    "ProjectID": 35,
+    "ProjectNumber": "Proj0019",
+    "ProjectName": "Proj0019",
+    "CreatedBy": null,
+    "CreatedDate": "2026-04-06 10:39:05",
+    "Status": "Active",
+    "floorplan": null
+  },
+  {
+    "ProjectID": 36,
+    "ProjectNumber": "123",
+    "ProjectName": "123",
+    "CreatedBy": null,
+    "CreatedDate": "2026-04-08 16:04:24",
+    "Status": "Active",
+    "floorplan": null
+  },
+  {
+    "ProjectID": 37,
+    "ProjectNumber": "Proj-9091",
+    "ProjectName": "Proj-9091",
+    "CreatedBy": null,
+    "CreatedDate": "2026-04-08 16:12:18",
+    "Status": "Active",
+   "floorplan": "projects/41/floorplan.svg"
+  }
+]
