@@ -30,7 +30,7 @@ async (req, res) => {
     };
 
     await writeJson(
-      `projects/${projectId}/layout.json`,
+      `projects/${projectId}/${projectId}_layout.json`,
       payload
     );
 
@@ -55,7 +55,7 @@ async (req, res) => {
   try {
 
     const layout = await readJson(
-      `projects/${req.params.projectId}/layout.json`,
+      `projects/${req.params.projectId}/${req.params.projectId}_layout.json`,
       {
         items: [],
         floorPlan: null

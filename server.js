@@ -8,14 +8,17 @@ import nodes7 from "nodes7";
 
 //import plcService from "./services/plc.service.js";
 
-//import {
+//  import 
+//  {
 //  updateSimulatorValues
-//} from "./services/plcSimulator.service.js";
+// } 
+//  from "./services/plcSimulator.service.js";
 
-//import {
+//  import {
 //  updatePLCValue,
 //  getAllPLCValues
-//} from "./services/plcCache.service.js";
+//  } 
+//  from "./services/plcCache.service.js";
 
 //import {
 //  syncPalletInFromPLC
@@ -51,6 +54,13 @@ import measurementsRoutes from "./routes/measurements.js";
 
 import sensorRoutes from "./routes/sensor.routes.js";
 
+import emailLayoutRoutes
+from "./routes/emailLayout.routes.js";
+
+import dotenv from "dotenv";
+
+dotenv.config();
+//console.log(process.env.GMAIL_PASS);
 /* ===================== EXPRESS ===================== */
 
 const app = express();
@@ -128,6 +138,11 @@ app.use("/api/scada", scadaRoutes);
 app.use(
   "/api/scada-control",
   scadaControlRoutes
+);
+
+app.use(
+  "/api/layout-email",
+  emailLayoutRoutes
 );
 
 /*app.use(

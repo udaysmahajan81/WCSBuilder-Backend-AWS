@@ -64,29 +64,11 @@
   },
   {
     "ProjectID": 35,
-    "ProjectNumber": "Proj0019",
+    "ProjectNumber": "Proj008",
     "ProjectName": "Proj0019",
     "CreatedBy": null,
     "CreatedDate": "2026-04-06 10:39:05",
     "Status": "Active",
     "floorplan": null
-  },
-  {
-    "ProjectID": 36,
-    "ProjectNumber": "123",
-    "ProjectName": "123",
-    "CreatedBy": null,
-    "CreatedDate": "2026-04-08 16:04:24",
-    "Status": "Active",
-    "floorplan": null
-  },
-  {
-    "ProjectID": 37,
-    "ProjectNumber": "Proj-9091",
-    "ProjectName": "Proj-9091",
-    "CreatedBy": null,
-    "CreatedDate": "2026-04-08 16:12:18",
-    "Status": "Active",
-   "floorplan": "projects/41/floorplan.svg"
   }
 ]

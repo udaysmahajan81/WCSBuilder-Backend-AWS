@@ -8,15 +8,7 @@
       "Icon": "settings",
       "Children": []
     },
-
-    {
-      "Name": "Analytics",
-      "Type": "Module",
-      "DisplayName": "Analytics",
-      "Icon": "analytics",
-      "Children": []
-    },
-
+	
     {
       "Name": "Components",
       "Type": "Module",
@@ -37,6 +29,12 @@
           "Type": "Component",
           "DisplayName": "SRM",
           "SvgPath": "/images/SRM.svg"
+        },
+		 {
+          "Name": "Panel",
+          "Type": "Component",
+          "DisplayName": "Panel",
+          "SvgPath": "/images/Panel.svg"
         }
       ]
     },

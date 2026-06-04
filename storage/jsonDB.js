@@ -39,11 +39,11 @@ export async function readJson(file, defaultValue = null) {
   try {
     const filePath = path.join(DATA_DIR, file);
 
-    console.log("READING FILE:", filePath);
+   // console.log("READING FILE:", filePath);
 
     const data = await fs.readFile(filePath, "utf8");
 
-    console.log("FILE FOUND");
+//    console.log("FILE FOUND");
 
     return JSON.parse(data);
 

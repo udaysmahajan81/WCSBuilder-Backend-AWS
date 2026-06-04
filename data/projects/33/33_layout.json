@@ -1,0 +1,72 @@
+{
+  "projectId": "33",
+  "floorPlan": null,
+  "items": [
+    {
+      "cnv_id": "SRM-01",
+      "x": 401.0115661621094,
+      "y": 284.0092582702637,
+      "width": 140,
+      "height": 40,
+      "rotation": 0,
+      "label_text": null,
+      "rack_sections": null,
+      "rack_bay_width": null,
+      "rack_height": null,
+      "rack_gap": null,
+      "params_json": "{\"width\":140,\"height\":40,\"subType\":null,\"source\":null,\"destination\":null,\"status\":null,\"conveyor\":null,\"conveyor_type\":null,\"conveyor_category\":null,\"imagePath\":null,\"dynamicParameters\":{}}"
+    },
+    {
+      "InstanceID": "Conveyor-1780550860058",
+      "ItemType": "Conveyor",
+      "cnv_id": "CC-",
+      "x": 255.01156616210938,
+      "y": 181.00925827026367,
+      "width": 80,
+      "height": 40,
+      "rotation": 0,
+      "carriage_x": 0,
+      "label_text": null,
+      "rack_sections": 3,
+      "rack_bay_width": 30,
+      "rack_height": 45,
+      "rack_gap": 2,
+      "params_json": "{\"width\":80,\"height\":40,\"subType\":null,\"source\":null,\"destination\":null,\"status\":null,\"conveyor\":null,\"conveyor_type\":null,\"conveyor_category\":null,\"imagePath\":\"/images/ChainConveyor.svg\",\"dynamicParameters\":{\"cnv_id\":\"Cnv1001\",\"width\":80,\"height\":30}}"
+    },
+    {
+      "InstanceID": "Conveyor-1780550879939",
+      "ItemType": "Conveyor",
+      "cnv_id": "CC-",
+      "x": 255.012,
+      "y": 284.009,
+      "width": 80,
+      "height": 40,
+      "rotation": 0,
+      "carriage_x": 0,
+      "label_text": null,
+      "rack_sections": 3,
+      "rack_bay_width": 30,
+      "rack_height": 45,
+      "rack_gap": 2,
+      "params_json": "{\"width\":80,\"height\":40,\"subType\":null,\"source\":null,\"destination\":null,\"status\":null,\"conveyor\":null,\"conveyor_type\":null,\"conveyor_category\":null,\"imagePath\":\"/images/ChainConveyor.svg\",\"dynamicParameters\":{\"cnv_id\":\"CNV11111\"}}"
+    },
+    {
+      "InstanceID": "SRM-1780550914944",
+      "ItemType": "SRM",
+      "cnv_id": "SRM-201",
+      "x": 335.012,
+      "y": 233.00900000000001,
+      "width": 140,
+      "height": 40,
+      "rotation": 0,
+      "carriage_x": 0,
+      "label_text": null,
+      "rack_sections": 3,
+      "rack_bay_width": 30,
+      "rack_height": 45,
+      "rack_gap": 2,
+      "params_json": "{\"width\":140,\"height\":40,\"subType\":null,\"source\":null,\"destination\":null,\"status\":null,\"conveyor\":null,\"conveyor_type\":null,\"conveyor_category\":null,\"imagePath\":null,\"dynamicParameters\":{}}"
+    }
+  ],
+  "updatedAt": "2026-06-04T05:51:13.423Z"
+}

@@ -40,24 +40,30 @@ router.get("/", async (req, res) => {
    CREATE PROJECT
 ========================================================= */
 
+
+
 router.post("/", async (req, res) => {
 
   try {
 
     const {
-      projectNumber,
-      projectName
+      ProjectNumber,
+      ProjectName
     } = req.body;
 
+    console.log(ProjectNumber);
+    console.log(ProjectName);
+
+    
     const projects = await readJson(
       "projects/projects.json",
       []
     );
 
-    /* CHECK EXISTING */
+    /* CHECK EXISTING  */
 
     const existing = projects.find(
-      p => p.ProjectNumber === projectNumber
+      p => p.ProjectNumber === ProjectNumber
     );
 
     if (existing) {
@@ -71,7 +77,7 @@ router.post("/", async (req, res) => {
       });
     }
 
-    /* CREATE NEW */
+    /* CREATE NEW  */
 
     const nextId =
       projects.length > 0
@@ -86,9 +92,9 @@ router.post("/", async (req, res) => {
 
       ProjectID: nextId,
 
-      ProjectNumber: projectNumber,
+      ProjectNumber: ProjectNumber,
 
-      ProjectName: projectName,
+      ProjectName: ProjectName,
 
       Status: "Active",
 

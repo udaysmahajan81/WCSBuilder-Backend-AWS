@@ -1,62 +1,32 @@
 {
-  "Conveyor": {
+  "Conveyor": 
+  {
     "Types": {
-      "ChainConveyor": {
+      "ChainConveyor": 
+	  {
         "DisplayName": "Chain Conveyor",
         "ImagePath": "/images/ChainConveyor.svg",
 
-        "Categories": {
-          "InputConveyor": {
+        "Categories": 
+		{
+          "InputConveyor": 
+		  {
             "DisplayName": "Input Conveyor"
-          },
-
-          "LoadingConveyor": {
-            "DisplayName": "Loading Conveyor"
-          },
-
-          "UnloadingConveyor": {
-            "DisplayName": "Unloading Conveyor"
-          },
-
-          "OutputConveyor": {
-            "DisplayName": "Output Conveyor"
-          },
-
-          "InLineConveyor": {
-            "DisplayName": "Inline Conveyor"
-          },
-
-          "Sorter": {
-            "DisplayName": "Sorter Conveyor",
-            "ImagePath": "/images/Sorter.svg"
           }
         }
       },
 
-      "RollerConveyor": {
+      "RollerConveyor": 
+	  {
         "DisplayName": "Roller Conveyor",
         "ImagePath": "/images/RollerConveyor.svg",
 
-        "Categories": {
-          "InputConveyor": {},
-          "LoadingConveyor": {},
-          "UnloadingConveyor": {},
-          "OutputConveyor": {},
-          "InLineConveyor": {}
-        }
-      }
-    }
-  },
-
-  "Panel": {
-    "Types": {
-      "Panel": {
-        "DisplayName": "Electrical Panel",
-        "ImagePath": "/images/Panel.svg",
-
-        "Categories": {
-          "MainPanel": {},
-          "FieldPanel": {}
+       "Categories": 
+		{
+          "InputConveyor": 
+		  {
+            "DisplayName": "Input Conveyor"
+          }
         }
       }
     }

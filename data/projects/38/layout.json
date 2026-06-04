@@ -1,0 +1,21 @@
+{
+  "projectId": "38",
+  "floorPlan": null,
+  "items": [
+    {
+      "cnv_id": "CC-",
+      "x": 431.0115661621094,
+      "y": 211.00925827026367,
+      "width": 80,
+      "height": 40,
+      "rotation": 0,
+      "label_text": null,
+      "rack_sections": null,
+      "rack_bay_width": null,
+      "rack_height": null,
+      "rack_gap": null,
+      "params_json": "{\"width\":80,\"height\":40,\"subType\":null,\"source\":null,\"destination\":null,\"status\":null,\"conveyor\":null,\"conveyor_type\":null,\"conveyor_category\":null,\"imagePath\":null,\"dynamicParameters\":{}}"
+    }
+  ],
+  "updatedAt": "2026-06-04T03:08:00.495Z"
+}

@@ -15,23 +15,7 @@
             "DefaultValue": "",
             "DisplayOrder": 1
           },
-{
-  "Name": "componentType",
-  "Category": "Design",
-  "DataType": "STRING",
-  "Required": true,
-  "DefaultValue": "ChainConveyor",
-  "DisplayOrder": 2
-},
-{
-  "Name": "category",
-  "Category": "Design",
-  "DataType": "STRING",
-  "Required": true,
-  "DefaultValue": "InputConveyor",
-  "DisplayOrder": 3
-},
-          {
+		          {
             "Name": "width",
             "Category": "Design",
             "DataType": "FLOAT",
@@ -104,7 +88,7 @@
           },
 
           {
-            "Name": "LUID",
+            "Name": "SUID",
             "Category": "PLCDB",
             "DataType": "STRING",
             "Required": false,
@@ -112,31 +96,8 @@
             "DisplayOrder": 22
           }
         ]
-      },
-
-      "Sorter": {
-
-        "Parameters": [
-
-          {
-            "Name": "DivertAngle",
-            "Category": "Design",
-            "DataType": "FLOAT",
-            "Required": true,
-            "DefaultValue": 30,
-            "DisplayOrder": 1
-          },
-
-          {
-            "Name": "NumberOfLanes",
-            "Category": "Design",
-            "DataType": "INT",
-            "Required": true,
-            "DefaultValue": 2,
-            "DisplayOrder": 2
-          }
-        ]
       }
+
     },
 
     "RollerConveyor": {
@@ -146,13 +107,102 @@
         "Parameters": [
 
           {
-            "Name": "RollerPitch",
+            "Name": "cnv_id",
+            "Category": "Design",
+            "DataType": "STRING",
+            "Required": true,
+            "DefaultValue": "",
+            "DisplayOrder": 1
+          },
+			{
+			  "Name": "componentType",
+			  "Category": "Design",
+			  "DataType": "STRING",
+			  "Required": true,
+			  "DefaultValue": "RollerConveyor",
+			  "DisplayOrder": 2
+			},
+			{
+			  "Name": "category",
+			  "Category": "Design",
+			  "DataType": "STRING",
+			  "Required": true,
+			  "DefaultValue": "InputConveyor",
+			  "DisplayOrder": 3
+			},
+          {
+            "Name": "width",
             "Category": "Design",
             "DataType": "FLOAT",
             "Required": true,
-            "DefaultValue": 100,
-            "DisplayOrder": 1
+            "DefaultValue": 0,
+            "DisplayOrder": 2
+          },
+
+          {
+            "Name": "height",
+            "Category": "Design",
+            "DataType": "FLOAT",
+            "Required": true,
+            "DefaultValue": 0,
+            "DisplayOrder": 3
+          },
+
+          {
+            "Name": "rotation",
+            "Category": "Design",
+            "DataType": "INT",
+            "Required": false,
+            "DefaultValue": 0,
+            "DisplayOrder": 4
+          },
+
+          {
+            "Name": "Speed",
+            "Category": "Design",
+            "DataType": "FLOAT",
+            "Required": true,
+            "DefaultValue": 0,
+            "DisplayOrder": 5
+          },
+
+          {
+            "Name": "Load",
+            "Category": "Design",
+            "DataType": "FLOAT",
+            "Required": true,
+            "DefaultValue": 0,
+            "DisplayOrder": 6
+          },
+
+          {
+            "Name": "Efficiency",
+            "Category": "Design",
+            "DataType": "FLOAT",
+            "Required": false,
+            "DefaultValue": 0.9,
+            "DisplayOrder": 7
+          },
+
+          {
+            "Name": "Status",
+            "Category": "PLCDB",
+            "DataType": "STRING",
+            "Required": false,
+            "DefaultValue": "0",
+            "DisplayOrder": 20
+          },
+
+          {
+            "Name": "Error",
+            "Category": "PLCDB",
+            "DataType": "STRING",
+            "Required": false,
+            "DefaultValue": "0",
+            "DisplayOrder": 21
           }
+
+       
         ]
       }
     }
