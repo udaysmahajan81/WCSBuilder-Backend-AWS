@@ -100,9 +100,9 @@ const PLC_INI_PATH = "./config/plc.ini";
 
 /* ===================== PLC STATE ===================== */
 
-//let plcConn = null;
+let plcConn = null;
 
-//let plcConfig = null;
+let plcConfig = null;
 
 //let tagsRegistered = false;
 
